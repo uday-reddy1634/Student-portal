@@ -1,0 +1,6 @@
+{
+  "name": "Anuchaaya Tech",
+  "description": "Elite academic operating portal and scholastic management system featuring student dashboards, curriculum attendance matrix, detailed gradebooks, work vault, faculty mentorship, and parent, teacher, and admin portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
