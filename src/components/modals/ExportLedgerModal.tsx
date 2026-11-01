@@ -29,7 +29,7 @@ export const ExportLedgerModal: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-[#f8fafc] font-['Plus_Jakarta_Sans']">
-                Aura Academy • Official Academic Transcript
+                Pathshala • Official Academic Transcript
               </h3>
               <span className="text-xs text-slate-500 dark:text-[#94a3b8]">Registrar Directorate • Fall Term 2026</span>
             </div>
