@@ -110,18 +110,18 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // Data states
   const [student, setStudent] = useState<StudentProfile>(() => {
-    const saved = localStorage.getItem('aura_student');
+    const saved = localStorage.getItem('pathshala_student');
     return saved ? JSON.parse(saved) : initialStudent;
   });
 
   const [schedule] = useState<ScheduleItem[]>(initialSchedule);
   const [courseMarks, setCourseMarks] = useState<CourseMark[]>(() => {
-    const saved = localStorage.getItem('aura_marks');
+    const saved = localStorage.getItem('pathshala_marks');
     return saved ? JSON.parse(saved) : initialCourseMarks;
   });
 
   const [courseAttendance, setCourseAttendance] = useState<CourseAttendance[]>(() => {
-    const saved = localStorage.getItem('aura_attendance_courses');
+    const saved = localStorage.getItem('pathshala_attendance_courses');
     return saved ? JSON.parse(saved) : initialCourseAttendance;
   });
 
@@ -129,24 +129,24 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [octoberDays, setOctoberDays] = useState<AttendanceDay[]>(octoberCalendarDays);
 
   const [assignments, setAssignments] = useState<AssignmentItem[]>(() => {
-    const saved = localStorage.getItem('aura_assignments');
+    const saved = localStorage.getItem('pathshala_assignments');
     return saved ? JSON.parse(saved) : initialAssignments;
   });
 
   const [syllabusList, setSyllabusList] = useState<SyllabusItem[]>(() => {
-    const saved = localStorage.getItem('aura_syllabus');
+    const saved = localStorage.getItem('pathshala_syllabus');
     return saved ? JSON.parse(saved) : initialSyllabusList;
   });
 
   const [facultyFeedback, setFacultyFeedback] = useState<FacultyFeedbackItem[]>(() => {
-    const saved = localStorage.getItem('aura_feedback');
+    const saved = localStorage.getItem('pathshala_feedback');
     return saved ? JSON.parse(saved) : initialFacultyFeedback;
   });
 
   const [cohortLeaderboard, setCohortLeaderboard] = useState<CohortStudent[]>(initialCohortLeaderboard);
 
   const [teacherRoster, setTeacherRoster] = useState<TeacherStudentRosterItem[]>(() => {
-    const saved = localStorage.getItem('aura_teacher_roster');
+    const saved = localStorage.getItem('pathshala_teacher_roster');
     return saved ? JSON.parse(saved) : initialTeacherRoster;
   });
 
@@ -175,7 +175,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const toggleTheme = () => {
     setTheme(prev => {
       const next = prev === 'dark' ? 'light' : 'dark';
-      localStorage.setItem('aura_theme', next);
+      localStorage.setItem('pathshala_theme', next);
       return next;
     });
   };
