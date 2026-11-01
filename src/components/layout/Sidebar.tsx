@@ -59,7 +59,7 @@ export const Sidebar: React.FC = () => {
               <div className="w-9 h-9 rounded-xl bg-slate-900 dark:bg-surface-dark border border-gold/40 flex items-center justify-center p-1.5 shadow-[0_0_15px_rgba(212,175,55,0.2)] shrink-0 overflow-hidden">
                 <img
                   src="/assets/aistudio/Image_4_0050ff95.png"
-                  alt="Aura Logo"
+                  alt="Pathshala Logo"
                   className="w-full h-full object-contain"
                   onError={(e) => {
                     (e.target as HTMLElement).style.display = 'none';
@@ -68,7 +68,7 @@ export const Sidebar: React.FC = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-lg tracking-wider text-slate-900 dark:text-white font-['Plus_Jakarta_Sans'] leading-none">
-                  AURA
+                  Pathshala
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-[#b8860b] dark:text-gold font-semibold mt-0.5">
                   Student Portal
