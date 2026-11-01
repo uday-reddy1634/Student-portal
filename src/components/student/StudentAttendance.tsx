@@ -46,7 +46,7 @@ export const StudentAttendance: React.FC = () => {
         <div className="flex flex-col gap-1 z-10">
           <div className="flex items-center gap-2">
             <span className="text-[11px] text-[#b8860b] dark:text-gold-bright uppercase font-bold tracking-wider">
-              Aura Academic Registry
+              Pathshala Academic Registry
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-gold/50"></span>
             <span className="text-xs text-slate-500 dark:text-[#94a3b8]">Live Synchronized Ledger</span>
