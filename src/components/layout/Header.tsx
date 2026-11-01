@@ -63,12 +63,12 @@ export const Header: React.FC = () => {
           <div className="w-7 h-7 rounded-lg bg-slate-900 dark:bg-surface-dark border border-gold/40 flex items-center justify-center p-1">
             <img
               src="/assets/aistudio/Image_4_0050ff95.png"
-              alt="Aura Logo"
+              alt="Pathshala Logo"
               className="w-full h-full object-contain"
             />
           </div>
           <span className="font-bold text-sm text-slate-900 dark:text-white font-['Plus_Jakarta_Sans']">
-            AURA
+            Pathshala
           </span>
         </div>
 
